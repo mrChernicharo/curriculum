@@ -21,7 +21,7 @@
 		<header>
 			<div class="toggle-div slide-toggle-container">
 				<div class="toggle-div slide-toggle-top">
-					<span>Dark mode</span>
+					<span>Light mode</span>
 				</div>
 				<div class="toggle-div slide-toggle-bottom">
 					<label class="s-toggle slide-toggle-switch">
@@ -296,14 +296,14 @@
 			let dark = true;
 
       const theme = {
-        light: {
+        dark:{
           background: '#474747',
           title: '#f2f3f5',
           text: '#f2f3f5',
           link: '#2aa9e0',
           highlight: '#2bd66d'
         },
-        dark: {
+        light:{
           background: '#f2f3f5',
           title:  '#474747',
           text: '#474747',
@@ -318,19 +318,19 @@
 
 				if (dark) {
 
-					root.style.setProperty('--background', dark.background );
-					root.style.setProperty('--text', dark.text );
-					root.style.setProperty('--title', dark.title );
-					root.style.setProperty('--link', dark.link );
-					root.style.setProperty('--highlight', dark.highlight );
+					root.style.setProperty('--background', theme.dark.background );
+					root.style.setProperty('--text', theme.dark.text );
+					root.style.setProperty('--title', theme.dark.title );
+					root.style.setProperty('--link', theme.dark.link );
+					root.style.setProperty('--highlight', theme.dark.highlight );
 					
 				} else {
 					
-          root.style.setProperty('--background', light.background);
-					root.style.setProperty('--text', light.text );
-					root.style.setProperty('--title', light.title );
-					root.style.setProperty('--link', light.link );
-					root.style.setProperty('--highlight', light.highlight );
+          root.style.setProperty('--background', theme.light.background);
+					root.style.setProperty('--text', theme.light.text );
+					root.style.setProperty('--title', theme.light.title );
+					root.style.setProperty('--link', theme.light.link );
+					root.style.setProperty('--highlight', theme.light.highlight );
 					// root.style.setProperty('--shadow', "rgba(0, 0, 0, 0.6)");
 				}
 			}

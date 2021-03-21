@@ -5,21 +5,27 @@
 }
 
 :root {
-  --white: #fff;
-  --background: #f2f3f5;
-  --gray-line: #dcdde0;
-  /* --highlight: #a32121; */
-  /* --highlight: #c4570e; */
-  --highlight: #6942f7;
-
+  /* --background: #f2f3f5;
   --title: #2e2e2e;
   --text: #474747;
+  --link: #5965e0;
+  --highlight: #6942f7;
+
+ */
+
+  --background: #474747;
+  --title: #f2f3f5;
+  --text: #f2f3f5;
+  --link: #2aa9e0;
+  --highlight: #2bd66d;
+
+  --white: #fff;
   --shadow: rgba(88, 78, 78, 0.6);
   --red: #e83f5b;
   --green: #2bd66d;
-  --link: #5965e0;
   --blue-dark: #4953b8;
   --blue-tweeter: #2aa9e0;
+  --gray-line: #dcdde0;
 }
 
 @media (max-width: 1080px) {
@@ -292,7 +298,11 @@ main {
 }
 
 input:checked + .slider {
-  background-image: linear-gradient(45deg, var(--green), var(--blue-tweeter));
+  background-image: linear-gradient(
+    45deg,
+    var(--highlight),
+    var(--blue-tweeter)
+  );
 }
 
 input:focus + .slider {
