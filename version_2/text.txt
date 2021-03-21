@@ -1,0 +1,79 @@
+Felipe Melo Chernicharo
+Software Developer
+JAVASCRIPT | TYPESCRIPT | REACT | ANGULAR | NODEJS
+Date of Birth: April 29th, 1987 Place of Birth: Rio de Janeiro - Brazil
+Phone: +55 21 98878-8359 Email: felipe.chernicharo@gmail.com
+LinkedIn: linkedin.com/in/felipe-chernicharo-27ba911a8/ GitHub: github.com/mrChernicharo
+Stack Overflow: stackoverflow.com/users/13111779/felipe-chernicharo
+Goals
+▵ Participate in relevant projects and learn more every day.
+▵ Acquire more experience and productivity in the areas of programming and software development.
+▵ Work as a team, with talented programmers and tech people, combining technique and creativity to solve real
+world problems.
+Academic Education
+▵ Systems Analysis and Development - UNIGRANRIO - ending in July 2022
+▵ Music Degree - UNIRIO - Federal University of Rio de Janeiro - 2005 to 2010
+Experience
+▵ Working as Software Developer since June 2020 at Versátil - telecom and tech company versatec.com.br
+▵ Webmaster of Clínica Laços psychology clinic clinicalacos.com.br,
+▵ Maintainer of lacos app
+Some personal projects currently online
+▵ real beat maker
+▵ mel da terra verde app
+▵ bflatset
+▵ move it
+▵ Online Portfolio - chernicha.tech
+...And dozens of other personal projects all available on GitHub.
+Courses
+▵ Gostack Bootcamp - Rocketseat's 7 week Bootcamp - TypeScript, Node JS, AWS, ReactJS, React Native -
+2020
+▵ Academind Angular Complete Guide - Udemy Course - 2019
+▵ Angular University - Firebase and Firestore Masterclass - 2020
+▵ Angular University - Reactive Angular Course with RxJS - 2020
+▵ Advanced and Object-Oriented JavaScript and ES6 - Udemy Course - 2020
+▵ D3JS - The Art of Data Visualization - Udemy course - 2020
+▵ Complete Modern Web Development - Udemy +100 hour course on HTML, CSS, bootstrap, JavaScript,
+JQuery, PHP, SQL, loads of practical projects and more - 2019
+▵ CCAA English Course - Full mid-level and advanced course - 1998 to 2004
+Spoken Languages
+▵ Fluent English
+▵ Fluent Portuguese (Native Language)
+▵ Almost fluent French
+▵ Almost fluent Spanish
+Techs/Skills
+Programming languages
+▵ JavaScript ▵ TypeScript ▵ HTML ▵ SQL
+▵ CSS ▵ Scss & Sass ▵ Python ▵ PHP
+Frontend Frameworks
+▵ React JS ▵ Angular 2+
+▵ Next JS ▵ React Native
+▵ JQuery
+Backend
+▵ Node JS ▵ Express
+▵ MySQL ▵ Postgres
+▵ MongoDB ▵ Redis
+Libraries
+*Non-exhaustive list of libraries used in past projects and that I feel comfortable to work with
+▵ Styled Components ▵ Tailwind CSS ▵ Framer Motion ▵ Bootstrap
+▵ Angular Material ▵ Material UI ▵ Redux ▵ NgRx
+▵ AngularFire ▵ Axios ▵ Puppeteer ▵ TypeORM
+▵ Mongoose ▵ Echarts ▵ D3 ▵ Gridster
+▵ JWT ▵ JScookie ▵ RxJS ▵ Nebula
+Platforms
+▵ Firebase: firestore, realtimeDB, fireStorage,
+fireAuth, security rules, functions, analitics...
+▵ AWS S3, Amazon SES, BitBucket...
+▵ Vercel
+▵ Google Cloud Platform
+Design & Prototyping
+▵ Figma
+▵ Whimsical
+▵ Framer
+▵ Pixlr X
+▵ SvgPathEditor
+Miscellaneous
+▵ Git ▵ GitHub ▵ GitLab
+▵ Bash ▵ Vim ▵ Docker
+▵ Zsh ▵ Babel ▵ Webpack
+Dark mode
+*personal favorites
