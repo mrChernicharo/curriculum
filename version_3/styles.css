@@ -34,9 +34,15 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 950px) {
   html {
     font-size: 87.5%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 82%;
   }
 }
 
@@ -123,21 +129,22 @@ main {
   grid-gap: 1.5rem;
 }
 
-.main-info {
-  /* border: 1px solid; */
+@media (max-width: 920px) {
+  main {
+    width: calc(100% - 32px);
+  }
 }
+
+@media (max-width: 780px) {
+  main {
+    width: calc(100% - 24px);
+    padding: 0;
+  }
+}
+
 .main-info ul {
   display: grid;
   grid-template-columns: 5fr 4fr;
-}
-
-.goals {
-}
-.academic {
-}
-.experience {
-}
-.courses {
 }
 
 .techs {
