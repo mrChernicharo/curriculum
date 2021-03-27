@@ -5,19 +5,17 @@
 }
 
 :root {
-  /* --background: #f2f3f5;
+  --background: #f2f3f5;
   --title: #2e2e2e;
-  --text: #474747;
+  --text: #383636;
   --link: #5965e0;
   --highlight: #6942f7;
 
- */
-
-  --background: #474747;
+  /* --background: #383636;
   --title: #f2f3f5;
   --text: #f2f3f5;
   --link: #2aa9e0;
-  --highlight: #2bd66d;
+  --highlight: #2bd66d; */
 
   --white: #fff;
   --shadow: rgba(88, 78, 78, 0.6);
@@ -49,7 +47,7 @@
 body {
   background-color: var(--background);
   color: var(--title);
-  padding-bottom: 3rem;
+  padding-bottom: 0.5rem;
 }
 
 body,
@@ -57,7 +55,8 @@ textarea,
 input,
 button {
   /* font: 500 1rem "Karla", sans-serif; */
-  font: 300 1rem "Asap", sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
+  /* font: 300 1rem "Asap", sans-serif; */
 }
 /* 1rem == tamnho do font-size padrão do body da aplicação  (16px)*/
 
@@ -232,9 +231,8 @@ span.pipe {
 
 #bottom-legend {
   position: relative;
-  margin: 1rem 0 0;
-  right: -686px;
-  width: 150px;
+  margin: 1rem 6px 0;
+  grid-column: 5/7;
 }
 
 .toggle-div {
@@ -252,6 +250,7 @@ span.pipe {
   height: 61px;
   display: grid;
   grid-area: click;
+  display: none;
 }
 .slide-toggle-top {
   /* border: 1px solid; */
@@ -334,9 +333,10 @@ input:checked + .slider:before {
   }
 }
 
-span.bullet {
+i.bullet {
   /* animation: animatebullet 2s ease 0 infinite; */
   position: relative;
+  color: red;
 }
 /* @keyframes animatebullet {
   from {
