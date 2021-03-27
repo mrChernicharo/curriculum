@@ -17,7 +17,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
 	<title>CV Felipe Chernicharo</title>
-	<!-- <link rel="stylesheet" href="styles.css" /> -->
+	<link rel="stylesheet" href="styles.css" />
 
 	<style>
 		* {
@@ -376,6 +376,52 @@
   }
 } */
 	</style>
+
+	<script>
+		let root = document.documentElement;
+		let dark = true;
+
+		const theme = {
+			dark: {
+				background: '#383636',
+				title: '#f2f3f5',
+				text: '#f2f3f5',
+				link: '#2aa9e0',
+				highlight: '#2bd66d'
+			},
+			light: {
+				background: '#f2f3f5',
+				title: '#383636',
+				text: '#383636',
+				link: '#5965e0',
+				highlight: '#6942f7'
+			}
+		}
+
+		function handleToggle() {
+			console.log('toggle!')
+			dark = !dark
+
+			if (dark) {
+
+				root.style.setProperty('--background', theme.dark.background);
+				root.style.setProperty('--text', theme.dark.text);
+				root.style.setProperty('--title', theme.dark.title);
+				root.style.setProperty('--link', theme.dark.link);
+				root.style.setProperty('--highlight', theme.dark.highlight);
+
+			} else {
+
+				root.style.setProperty('--background', theme.light.background);
+				root.style.setProperty('--text', theme.light.text);
+				root.style.setProperty('--title', theme.light.title);
+				root.style.setProperty('--link', theme.light.link);
+				root.style.setProperty('--highlight', theme.light.highlight);
+				// root.style.setProperty('--shadow', "rgba(0, 0, 0, 0.6)");
+			}
+		}
+
+	</script>
 </head>
 
 <body>
@@ -438,9 +484,12 @@
 				<span class="bullet">▵</span> Work as a team, with talented programmers and tech people, combining
 				technique and creativity to solve real world problems.
 			</p>
-			<p> <span class="bullet">▵</span> Participate in relevant projects and learn more every day.</p>
+			<p> <span class="bullet">▵</span> Participate in meaningful tasks. Integrate projects with the power to make
+				people's lives better. </p>
+			<p> <span class="bullet">▵</span> Learn more every day.</p>
 			</p>
 		</div>
+
 		<div class="academic">
 			<h3>Academic Education</h3>
 			<ul>
@@ -454,6 +503,7 @@
 				</li>
 			</ul>
 		</div>
+
 		<div class="tech-experience">
 			<h3>Tech Experience</h3>
 			<ul>
@@ -490,6 +540,19 @@
 				...And dozens of other personal projects all available on GitHub.
 			</p>
 		</div>
+
+
+		<div class="spoken-languages">
+			<h3>Spoken Languages</h3>
+			<ul>
+				<li> <span class="bullet">▵</span> Fluent Portuguese (Native Language)</li>
+				<li> <span class="bullet">▵</span> Fluent English</li>
+				<li> <span class="bullet">▵</span> Fluent Spanish</li>
+				<li> <span class="bullet">▵</span> Advanced French</li>
+				<li> <span class="bullet">▵</span> Basic German and Italian</li>
+			</ul>
+		</div>
+
 
 		<div class="background">
 			<h3>Background, Soft-Skills & Previous Work Experience</h3>
@@ -547,58 +610,6 @@
 
 		</div>
 
-		<div class="courses">
-			<h3>Courses</h3>
-			<ul>
-				<li>
-					<span class="bullet">▵</span> <strong>Gostack Bootcamp</strong> - Rocketseat's 7 week Bootcamp -
-					TypeScript, Node JS, AWS, ReactJS, React Native - <strong>2020</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span><strong> Academind Angular Complete Guide </strong> - Udemy Course
-					- <strong>2019</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span> <strong>Angular University</strong> - Firebase and Firestore
-					Masterclass - <strong>2020</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span> <strong>Angular University</strong> - Reactive Angular Course with
-					RxJS - <strong>2020</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span>
-					<strong>Advanced and Object-Oriented JavaScript and ES6</strong>
-					- Udemy Course - <strong>2020</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span> <strong>D3JS - The Art of Data Visualization</strong> - Udemy
-					course
-					- <strong>2020</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span> <strong>Complete Modern Web Development</strong> - Udemy +100 hour
-					course on HTML, CSS, bootstrap, JavaScript, JQuery, PHP, SQL, loads
-					of practical projects and more - <strong>2019</strong>
-				</li>
-				<li>
-					<span class="bullet">▵</span> <strong>CCAA English Course</strong> - Full mid-level and advanced course
-					- <strong>1998</strong> to
-					<strong>2004</strong>
-				</li>
-			</ul>
-		</div>
-
-		<div class="spoken-languages">
-			<h3>Spoken Languages</h3>
-			<ul>
-				<li> <span class="bullet">▵</span> Fluent English</li>
-				<li> <span class="bullet">▵</span> Fluent Portuguese (Native Language)</li>
-				<li> <span class="bullet">▵</span> Almost fluent French</li>
-				<li> <span class="bullet">▵</span> Almost fluent Spanish</li>
-				<!-- <li> <span class="bullet">▵</span> Certain curiosity for German and Italian</li> -->
-			</ul>
-		</div>
 
 		<h1 class="techs-header">Techs/Skills</h1>
 
@@ -715,54 +726,51 @@
 			</div>
 			<p id="bottom-legend" class="highlight">*personal favorites</p>
 		</div>
+
+
+		<div class="courses">
+			<h3>Courses</h3>
+			<ul>
+				<li>
+					<span class="bullet">▵</span> <strong>Gostack Bootcamp</strong> - Rocketseat's 7 week Bootcamp -
+					TypeScript, Node JS, AWS, ReactJS, React Native - <strong>2020</strong>
+				</li>
+				<li>
+					<span class="bullet">▵</span><strong> Academind Angular Complete Guide </strong> - Udemy Course
+					- <strong>2019</strong>
+				</li>
+				<li>
+					<span class="bullet">▵</span> <strong>Angular University</strong> - Firebase and Firestore
+					Masterclass - <strong>2020</strong>
+				</li>
+				<li>
+					<span class="bullet">▵</span> <strong>Angular University</strong> - Reactive Angular Course with
+					RxJS - <strong>2020</strong>
+				</li>
+				<li>
+					<span class="bullet">▵</span>
+					<strong>Advanced and Object-Oriented JavaScript and ES6</strong>
+					- Udemy Course - <strong>2020</strong>
+				</li>
+				<li>
+					<span class="bullet">▵</span> <strong>D3JS - The Art of Data Visualization</strong> - Udemy
+					course
+					- <strong>2020</strong>
+				</li>
+				<li>
+					<span class="bullet">▵</span> <strong>Complete Modern Web Development</strong> - Udemy +100 hour
+					course on HTML, CSS, bootstrap, JavaScript, JQuery, PHP, SQL, loads
+					of practical projects and more - <strong>2019</strong>
+				</li>
+				<!-- <li>
+					<span class="bullet">▵</span> <strong>CCAA English Course</strong> - Full mid-level and advanced course
+					- <strong>1998</strong> to
+					<strong>2004</strong>
+				</li> -->
+			</ul>
+		</div>
 	</main>
 	<footer></footer>
-
-	<script>
-		let root = document.documentElement;
-		let dark = true;
-
-		const theme = {
-			dark: {
-				background: '#383636',
-				title: '#f2f3f5',
-				text: '#f2f3f5',
-				link: '#2aa9e0',
-				highlight: '#2bd66d'
-			},
-			light: {
-				background: '#f2f3f5',
-				title: '#383636',
-				text: '#383636',
-				link: '#5965e0',
-				highlight: '#6942f7'
-			}
-		}
-
-		function handleToggle() {
-			console.log('toggle!')
-			dark = !dark
-
-			if (dark) {
-
-				root.style.setProperty('--background', theme.dark.background);
-				root.style.setProperty('--text', theme.dark.text);
-				root.style.setProperty('--title', theme.dark.title);
-				root.style.setProperty('--link', theme.dark.link);
-				root.style.setProperty('--highlight', theme.dark.highlight);
-
-			} else {
-
-				root.style.setProperty('--background', theme.light.background);
-				root.style.setProperty('--text', theme.light.text);
-				root.style.setProperty('--title', theme.light.title);
-				root.style.setProperty('--link', theme.light.link);
-				root.style.setProperty('--highlight', theme.light.highlight);
-				// root.style.setProperty('--shadow', "rgba(0, 0, 0, 0.6)");
-			}
-		}
-
-	</script>
 </body>
 
 </html>
